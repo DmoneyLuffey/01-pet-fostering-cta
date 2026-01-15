@@ -1,0 +1,164 @@
+/* Site header styling */
+.site-header {
+    /* Blue & teal background aligned with banner */
+    background-color: #0f766e;
+    /* Add padding for spacing */
+    padding: 15px 20px;
+    /* Center text alignment */
+    text-align: center;
+}
+
+/* Site header heading */
+.site-header h1 {
+    /* Medium font size for site name */
+    font-size: 24px;
+    /* Light color for contrast */
+    color: #ffffff;
+    /* Modern, readable font family */
+    font-family: 'Arial', sans-serif;
+    /* Remove default margins */
+    margin: 0;
+}
+
+/* CTA Section - tall, visually striking banner */
+.cta-section {
+    /* Set background image for the banner */
+    background-image: url('img/cta-bg.jpg');
+    /* Cover the entire section with the image */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Add light overlay color for readability */
+    background-color: rgba(15, 118, 110, 0.9);
+    /* Blend background image with overlay */
+    background-blend-mode: overlay;
+    /* Add padding for spacing inside the section */
+    padding: 100px 20px;
+    /* Center text alignment */
+    text-align: center;
+    /* Add minimum height for taller section */
+    min-height: 400px;
+}
+
+/* Main heading styling */
+.cta-header h1 {
+    /* Large, easy-to-read font size */
+    font-size: 48px;
+    /* Light color for contrast against dark background */
+    color: #ffffff;
+    /* Add spacing below the heading */
+    margin-bottom: 40px;
+    /* Modern, readable font family */
+    font-family: 'Arial', sans-serif;
+    /* Remove default margins */
+    margin-top: 0;
+}
+
+/* Description text styling */
+.cta-description {
+    /* Readable font size */
+    font-size: 18px;
+    /* Light color for readability */
+    color: #e0f2f1;
+    /* Add margin for spacing */
+    margin-bottom: 50px;
+    /* Modern font family */
+    font-family: 'Arial', sans-serif;
+    /* Limit text width for readability */
+    max-width: 600px;
+    /* Center the text block */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Call-to-action button styling */
+.cta-button {
+    /* Eye-catching bright teal color */
+    background-color: #14b8a6;
+    /* White text for contrast */
+    color: #ffffff;
+    /* Reduce padding for smaller button */
+    padding: 10px 25px;
+    /* Display as block element for better spacing */
+    display: inline-block;
+    /* Remove underline from link */
+    text-decoration: none;
+    /* Smaller font size */
+    font-size: 16px;
+    /* Modern font family */
+    font-family: 'Arial', sans-serif;
+    /* Add rounded corners for modern look */
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    /* Darker teal on hover for visual feedback */
+    background-color: #0d9488;
+}
+
+/* Fostering information section */
+.fostering-info {
+    /* Light background color */
+    background-color: #f0f9f8;
+    /* Add padding for spacing */
+    padding: 60px 20px;
+    /* Center text alignment */
+    text-align: center;
+}
+
+/* Container for two-column layout */
+.info-container {
+    /* Maximum width for centered content */
+    max-width: 1000px;
+    /* Center the container */
+    margin: 0 auto;
+}
+
+/* Individual column styling */
+.info-column {
+    /* Display columns inline */
+    display: inline-block;
+    /* Make columns evenly sized */
+    width: 48%;
+    /* Add spacing between columns */
+    margin: 0 1%;
+    /* Vertical alignment */
+    vertical-align: top;
+}
+
+/* Image styling */
+.info-image {
+    /* Make image responsive */
+    width: 400px;
+    /* Add rounded corners */
+    border-radius: 15px;
+    /* Add shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Information column heading */
+.info-column h2 {
+    /* Medium heading size */
+    font-size: 32px;
+    /* Teal color aligned with palette */
+    color: #0f766e;
+    /* Add spacing below heading */
+    margin-bottom: 20px;
+    /* Modern font family */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Information column paragraphs */
+.info-column p {
+    /* Readable font size */
+    font-size: 16px;
+    /* Dark text color */
+    color: #333333;
+    /* Add spacing between paragraphs */
+    margin-bottom: 15px;
+    /* Modern font family */
+    font-family: 'Arial', sans-serif;
+    /* Line spacing for readability */
+    line-height: 1.6;
+}
