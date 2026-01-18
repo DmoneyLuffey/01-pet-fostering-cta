@@ -162,3 +162,41 @@
     /* Line spacing for readability */
     line-height: 1.6;
 }
+
+/* Site footer styling */
+.site-footer {
+    /* Teal background aligned with header */
+    background-color: #0f766e;
+    /* Add padding for spacing */
+    padding: 20px;
+    /* Center text alignment */
+    text-align: center;
+}
+
+/* Footer paragraph styling */
+.site-footer p {
+    /* Light color for contrast */
+    color: #ffffff;
+    /* Remove default margins */
+    margin: 0;
+    /* Readable font size */
+    font-size: 14px;
+    /* Modern font family */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Footer links styling */
+.site-footer a {
+    /* Bright teal color for links */
+    color: #14b8a6;
+    /* Remove underline from links */
+    text-decoration: none;
+}
+
+/* Footer links hover effect */
+.site-footer a:hover {
+    /* Lighter color on hover */
+    color: #e0f2f1;
+    /* Add underline on hover */
+    text-decoration: underline;
+}
